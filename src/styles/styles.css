@@ -29,6 +29,15 @@ body {
   margin: 0 auto;
 }
 
-.main-navigation {
+.nav-background {
   background-color: var(--secundario);
+}
+
+.main-navigation {
+  padding: 1rem;
+}
+
+.main-navigation a {
+  color: var(--blanco);
+  text-decoration: none;
 }
