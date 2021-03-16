@@ -50,3 +50,9 @@ body {
   background-color: var(--primario);
   color: var(--oscuro);
 }
+
+@media (min-width: 768px) {
+  .main-navigation {
+    flex-direction: row;
+  }
+}
